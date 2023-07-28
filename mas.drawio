@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" modified="2023-07-10T19:08:09.423Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.0.0" etag="Xr9oVkzDrKsyPcuxpawy" version="21.6.1" type="github">
+  <diagram name="Page-1" id="s5qOFzqEYH3DueeG-3nv">
+    <mxGraphModel dx="3321" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-3" value="Users" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="70" y="62.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-4" value="ID&lt;br&gt;username&lt;br&gt;email&lt;br&gt;password&lt;br&gt;registration_date" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;labelPosition=center;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="70" y="92.5" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-5" value="Product" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="540" y="-20" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-6" value="ID&lt;br&gt;name&lt;br&gt;description&lt;br&gt;price&lt;br&gt;availability_status" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="540" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-7" value="Category" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="540" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-8" value="ID&lt;br&gt;name" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="540" y="310" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-10" value="Order" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="70" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-11" value="ID&lt;br&gt;order_date&lt;br&gt;total_amount&lt;br&gt;status" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="70" y="310" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-12" value="Seller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="70" y="490" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-13" value="ID&lt;br&gt;name&lt;br&gt;contact_info&lt;br&gt;rating" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="70" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-14" value="Reviews" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="540" y="460" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-15" value="ID&lt;br&gt;rating&lt;br&gt;description&lt;br&gt;date" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="540" y="490" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-16" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="70" y="670" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-17" value="ID&lt;br&gt;amount&lt;br&gt;payment_method&lt;br&gt;date" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="70" y="700" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-18" value="Shipping Address" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="540" y="655" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-19" value="ID&lt;br&gt;address_details&lt;br&gt;buyer_ID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="540" y="680" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-20" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-13" target="ZqHtmgtTxUDUTJlmeNIM-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="530" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="575" />
+              <mxPoint x="380" y="280" />
+              <mxPoint x="380" y="170" />
+              <mxPoint x="380" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-24" target="ZqHtmgtTxUDUTJlmeNIM-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="280" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ZqHtmgtTxUDUTJlmeNIM-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="280" as="sourcePoint" />
+            <mxPoint x="630" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-22" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="618.75" y="238.75" width="22.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-22" target="ZqHtmgtTxUDUTJlmeNIM-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="258" as="sourcePoint" />
+            <mxPoint x="630" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-24" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="614.38" y="145.63" width="27.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-26" target="ZqHtmgtTxUDUTJlmeNIM-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-26" value="Buyer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-27" value="ID&lt;br&gt;name&lt;br&gt;contact_info" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-150" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-3" target="ZqHtmgtTxUDUTJlmeNIM-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="-30" as="sourcePoint" />
+            <mxPoint x="310" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-31" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-11" target="ZqHtmgtTxUDUTJlmeNIM-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="380" />
+              <mxPoint x="360" y="-175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-34" value="" style="endArrow=ERmany;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-11" target="ZqHtmgtTxUDUTJlmeNIM-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="345" as="sourcePoint" />
+            <mxPoint x="540" y="85" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="345" />
+              <mxPoint x="460" y="280" />
+              <mxPoint x="460" y="83" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-33" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-180;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="62.5" width="30" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-37" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-13" target="ZqHtmgtTxUDUTJlmeNIM-36" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="608" as="sourcePoint" />
+            <mxPoint x="535" y="144" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="610" />
+              <mxPoint x="430" y="400" />
+              <mxPoint x="430" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-36" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-181;" parent="1" vertex="1">
+          <mxGeometry x="510" y="120" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-38" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1.006;exitY=0.401;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-15" target="ZqHtmgtTxUDUTJlmeNIM-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="520" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="538" />
+              <mxPoint x="780" y="280" />
+              <mxPoint x="780" y="43" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-39" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-15" target="ZqHtmgtTxUDUTJlmeNIM-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="350" as="sourcePoint" />
+            <mxPoint x="310" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="580" />
+              <mxPoint x="820" y="-197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ZqHtmgtTxUDUTJlmeNIM-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="770" as="sourcePoint" />
+            <mxPoint x="310" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="770" />
+              <mxPoint x="20" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-41" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZqHtmgtTxUDUTJlmeNIM-19" target="ZqHtmgtTxUDUTJlmeNIM-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="sourcePoint" />
+            <mxPoint x="530" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="730" />
+              <mxPoint x="920" y="130" />
+              <mxPoint x="920" y="-230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZqHtmgtTxUDUTJlmeNIM-44" value="&lt;div&gt;-- Create Users table&lt;/div&gt;&lt;div&gt;CREATE TABLE USERS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; USER_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; USERNAME VARCHAR(255) UNIQUE NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; EMAIL VARCHAR(255) UNIQUE NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PASSWORD VARCHAR(255) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; REGISTRATION_DATE TIMESTAMP NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; IS_BUYER BOOLEAN DEFAULT FALSE,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; IS_SELLER BOOLEAN DEFAULT FALSE&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Products table&lt;/div&gt;&lt;div&gt;CREATE TABLE PRODUCTS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PRODUCT_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; NAME VARCHAR(255) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DESCRIPTION TEXT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PRICE DECIMAL(10, 2) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; AVAILABILITY_STATUS BOOLEAN NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; CATEGORY_ID INT REFERENCES CATEGORIES(CATEGORY_ID)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Categories table&lt;/div&gt;&lt;div&gt;CREATE TABLE CATEGORIES (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; CATEGORY_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; NAME VARCHAR(255) NOT NULL&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Orders table&lt;/div&gt;&lt;div&gt;CREATE TABLE ORDERS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ORDER_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ORDER_DATE TIMESTAMP NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; TOTAL_AMOUNT DECIMAL(10, 2) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; STATUS VARCHAR(255) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; BUYER_ID INT REFERENCES USERS(USER_ID)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Sellers table&lt;/div&gt;&lt;div&gt;CREATE TABLE SELLERS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; SELLER_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; NAME VARCHAR(255) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; CONTACT_INFORMATION VARCHAR(255) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; RATING DECIMAL(3, 2) NOT NULL&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Products-Sellers relationship table&lt;/div&gt;&lt;div&gt;CREATE TABLE PRODUCTS_SELLERS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PRODUCT_ID INT REFERENCES PRODUCTS(PRODUCT_ID),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; SELLER_ID INT REFERENCES SELLERS(SELLER_ID),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PRIMARY KEY (PRODUCT_ID, SELLER_ID)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Reviews table&lt;/div&gt;&lt;div&gt;CREATE TABLE REVIEWS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; REVIEW_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; RATING INT NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DESCRIPTION TEXT,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DATE TIMESTAMP NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; BUYER_ID INT REFERENCES USERS(USER_ID),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PRODUCT_ID INT REFERENCES PRODUCTS(PRODUCT_ID)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Payments table&lt;/div&gt;&lt;div&gt;CREATE TABLE PAYMENTS (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PAYMENT_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; AMOUNT DECIMAL(10, 2) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; PAYMENT_METHOD VARCHAR(255) NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DATE TIMESTAMP NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ORDER_ID INT REFERENCES ORDERS(ORDER_ID)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-- Create Shipping Addresses table&lt;/div&gt;&lt;div&gt;CREATE TABLE SHIPPING_ADDRESSES (&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ADDRESS_ID SERIAL PRIMARY KEY,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ADDRESS_DETAILS TEXT NOT NULL,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; BUYER_ID INT REFERENCES USERS(USER_ID)&lt;/div&gt;&lt;div&gt;);&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="-570" width="490" height="1693" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
